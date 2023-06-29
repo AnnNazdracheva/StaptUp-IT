@@ -1,0 +1,113 @@
+
+
+
+
+/* --options--------------------------- */
+
+.options {
+  padding-top: 272px;
+  padding-bottom: 193px;
+}
+
+.options__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 32px;
+     -moz-column-gap: 32px;
+          column-gap: 32px;
+  row-gap: 24px;
+  text-align: center;
+}
+
+.options__item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 352px;
+          flex: 0 1 352px;
+}
+
+.item-option__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 48px 24px;
+  border-radius: 12px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.15);
+  -webkit-transition: -webkit-box-shadow 0.3s;
+  transition: -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.item-option__body:hover {
+  -webkit-box-shadow: 0px 4px 30px 0px rgba(67, 116, 229, 0.40);
+          box-shadow: 0px 4px 30px 0px rgba(67, 116, 229, 0.40);
+}
+
+.item-option__icon {
+  width: 72px;
+  height: 72px;
+}
+
+.item-option__icon svg g>path {
+  -webkit-transition: fill 0.3s;
+  transition: fill 0.3s;
+}
+
+.item-option__body:hover .item-option__icon svg g>path {
+  fill: #4374e5;
+}
+
+.item-option__icon:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.item-option__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 121.875%;
+  /* 39/32 */
+  color: #000000;
+}
+
+.item-option__title:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.item-option__text {
+  line-height: 150%;
+  /* 24/16 */
+}
+
+/* --media------------------ */
+
+@media (max-width: 991.98px) {
+  .options {
+    padding-top: 324px;
+    padding-bottom: 245px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .options {
+    padding-top: 74px;
+    padding-bottom: 52px;
+  }
+}
