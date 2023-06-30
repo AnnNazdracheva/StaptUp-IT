@@ -1,0 +1,19 @@
+/* -- RECET STYLES -- */
+
+@import url("components/reset.css");
+
+/* -- COMMON STYLES -- */
+
+@import url("components/common.css");
+
+/* -- header STYLES -- */
+
+@import url("components/header.css");
+
+/* -- main STYLES -- */
+
+@import url("components/main.css");
+
+/* -- footer STYLES -- */
+
+@import url("components/footer.css");
